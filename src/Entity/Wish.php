@@ -103,7 +103,7 @@ class Wish
 
     #[ORM\PrePersist]
     public function setNewWish(){
-        $this->setDateCreated(new\DatTime());
+        $this->setDateCreated(new \DateTime());
         $this->setIsPublished(true);
     }
 
