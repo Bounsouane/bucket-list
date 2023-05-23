@@ -1,0 +1,15 @@
+body{
+    background-color: lightyellow;
+    font-family: 'Roboto', sans-serif;
+}
+#logo {
+    max-width: 5%;
+    height: auto;
+}
+
+main{
+    height: 100vh;
+}
+div > .container{
+    width: 100%;
+}
